@@ -62,6 +62,31 @@ In addition, I am intensively involved with Python, Linux, automation, LocalAI, 
 
 ---
 
+### 🚀 Featured Projects
+
+- **[reboot-required](https://github.com/reboot-required/reboot-required)** - My GitHub profile and personal showcase
+- Feel free to browse my repositories for embedded systems, automation, and homelab projects!
+
+---
+
+### 📊 GitHub Stats
+
+![reboot-required’s GitHub stats](https://github-readme-stats.vercel.app/api?username=reboot-required&show_icons=true&theme=dark&hide_border=true)
+
+---
+
+### 🌐 Let’s Connect
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/reboot-required)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+
+---
+
+💬 Always interested in discussing embedded systems, optimization challenges, and homelab experiments. Feel free to reach out or explore my repositories!
+
+---
+
 <p align="center">
   <i>“If debugging is the process of removing bugs, then programming must be the process of putting them in.” — Edsger W. Dijkstra</i>
 </p>
