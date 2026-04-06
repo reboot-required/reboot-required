@@ -1,5 +1,3 @@
-@startuml
-
 skinparam Shadowing false
 skinparam BackgroundColor #FFFFFF
 skinparam DefaultFontName Arial
@@ -25,6 +23,10 @@ skinparam ComponentBackgroundColor #FFFFFF
 skinparam ComponentBorderColor #D0D7DE
 skinparam ComponentFontColor #1F2328
 skinparam ComponentStyle rectangle
+
+skinparam DatabaseBackgroundColor #FFFFFF
+skinparam DatabaseBorderColor #D0D7DE
+skinparam DatabaseFontColor #1F2328
 
 skinparam ClassBackgroundColor #FFFFFF
 skinparam ClassBorderColor #D0D7DE
@@ -52,7 +54,3 @@ skinparam NoteFontColor #1F2328
 skinparam LegendBackgroundColor #F6F8FA
 skinparam LegendBorderColor #D0D7DE
 skinparam LegendFontColor #1F2328
-
-skinparam stereotypeCBackgroundColor #DDDDDD
-
-@enduml
