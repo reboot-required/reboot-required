@@ -1,0 +1,58 @@
+@startuml
+
+skinparam Shadowing false
+skinparam BackgroundColor #FFFFFF
+skinparam DefaultFontName Arial
+skinparam DefaultFontColor #1F2328
+skinparam ArrowColor #57606A
+skinparam ArrowThickness 1
+skinparam HyperlinkColor #0969DA
+
+skinparam TitleFontColor #1F2328
+skinparam TitleFontSize 20
+
+skinparam PackageStyle rectangle
+skinparam PackageBackgroundColor #F6F8FA
+skinparam PackageBorderColor #D0D7DE
+skinparam PackageFontColor #1F2328
+
+skinparam RectangleBackgroundColor #FFFFFF
+skinparam RectangleBorderColor #D0D7DE
+skinparam RectangleFontColor #1F2328
+skinparam RectangleRoundCorner 8
+
+skinparam ComponentBackgroundColor #FFFFFF
+skinparam ComponentBorderColor #D0D7DE
+skinparam ComponentFontColor #1F2328
+skinparam ComponentStyle rectangle
+
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #D0D7DE
+skinparam ClassFontColor #1F2328
+skinparam ClassAttributeFontColor #57606A
+skinparam ClassStereotypeFontColor #0969DA
+skinparam ClassBorderThickness 1
+
+skinparam InterfaceBackgroundColor #FFFFFF
+skinparam InterfaceBorderColor #0969DA
+skinparam InterfaceFontColor #1F2328
+
+skinparam ActorBackgroundColor #FFFFFF
+skinparam ActorBorderColor #D0D7DE
+skinparam ActorFontColor #1F2328
+
+skinparam UsecaseBackgroundColor #F6F8FA
+skinparam UsecaseBorderColor #D0D7DE
+skinparam UsecaseFontColor #1F2328
+
+skinparam NoteBackgroundColor #FFF8C5
+skinparam NoteBorderColor #D4A72C
+skinparam NoteFontColor #1F2328
+
+skinparam LegendBackgroundColor #F6F8FA
+skinparam LegendBorderColor #D0D7DE
+skinparam LegendFontColor #1F2328
+
+skinparam stereotypeCBackgroundColor #DDDDDD
+
+@enduml

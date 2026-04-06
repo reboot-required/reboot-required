@@ -1,0 +1,24 @@
+@startuml
+!include styling-template.puml
+
+title Basic PlantUML Diagram
+
+actor User
+
+package "GitHub-Inspired Example" {
+  component "Frontend" as Frontend
+  component "API" as Api
+  database "Database" as Db
+}
+
+User --> Frontend : opens page
+Frontend --> Api : requests data
+Api --> Db : reads records
+Api --> Frontend : returns response
+
+note right of Api
+  Example diagram using
+  the shared styling template.
+end note
+
+@enduml
