@@ -2,66 +2,76 @@
 
 ## ⚡ Embedded Software Engineer
 
-I work on modern embedded systems: powerful, reliable software solutions based on C/C++ and sophisticated embedded architectures. 
+I build software for modern embedded systems - reliable, resource-conscious firmware in C/C++, from bare-metal microcontrollers up to embedded Linux.
 
-In my day-to-day job I develop embedded software, analyze existing systems for performance and functionality, and optimize them - whether on superloop systems, under RTOS, or with embedded Linux.
-
-
-In addition, I am intensively involved with Python, Linux, automation, LocalAI, and containerization (Docker/Kubernetes), and I run my own homelab to test new technologies and try out concepts in practice.
+Day to day I develop embedded software, analyze existing systems for performance and correctness, and optimize them. Whether on superloop firmware, under an RTOS, or on embedded Linux. Off the clock I run a homelab where I break things on purpose to learn how they really work.
 
 ---
 
 ### 🔧 What I Do
 
-- 🔩 Firmware development for microcontrollers (ARM Cortex-M, AVR, ...) and embedded linux systems (Yocto)
-- 📡 Communication protocols (SPI, I²C, UART, CAN, Ethernet)
-- ⏱️ Real-time systems (FreeRTOS, bare-metal)
-- 🛠️ Hardware bring-up, debugging & board support packages (BSP)
-- 🧪 Unit testing & CI/CD for embedded targets
+- 🔩 Firmware for microcontrollers (ARM Cortex-M, AVR) and embedded Linux (Yocto)
+- 📡 Communication protocols: SPI, I²C, UART, CAN, Ethernet, ...
+- ⏱️ Real-time & bare-metal systems (FreeRTOS/Zephyr)
+- 🛠️ Hardware bring-up, debugging & board support packages
+- 🧪 Unit testing, static analysis & CI/CD for embedded targets
 
 ---
 
-### 🛠️ Tech Stack & Tools
+### 🚀 Projects
 
-#### Languages
+Real projects, each with proper documentation — not throwaway tutorials.
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| **[MazarbuLib](https://github.com/reboot-required/MazarbuLib)** | Portable C99 library for tabular data screens over UART. Static allocation only, zero dependencies, drop-in as a git submodule. | `C99` · `CMake` · `CI` |
+| **[cirthfb](https://github.com/reboot-required/cirthfb)** | Linux framebuffer driver for e-ink displays, with a Yocto layer for the Raspberry Pi Zero 2W. | `C` · `Linux` · `Yocto` |
+| **[lorawan-rpi](https://github.com/reboot-required/lorawan-rpi)** | Minimal LoRaWAN implementation driving an RF95 radio on the Raspberry Pi. | `C++` · `LoRaWAN` |
+| **[homelab](https://github.com/reboot-required/homelab)** | Documentation of my homelab: services, network, and the things I learn breaking them. | `Docker` · `k8s` |
+
+---
+
+### 🛠️ Tech Stack
+
+**Languages**
+
 ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) <br/>
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-#### Platforms & MCUs
+**Platforms & MCUs**
+
 ![Infineon](https://img.shields.io/badge/-Infineon-0063B1?style=flat-square&logo=infineon&logoColor=white)
 ![Texas Instruments](https://img.shields.io/badge/-Texas%20Instruments-CC0000?style=flat-square&logo=ti&logoColor=white)
 ![STM32](https://img.shields.io/badge/-STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white)
-![Orange Pi](https://img.shields.io/badge/-Orange%20Pi-FF6600?style=flat-square&logo=linux&logoColor=white)
 ![ESP32](https://img.shields.io/badge/-ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white)
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
 
-#### Tools & IDEs
+**Tools**
+
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
-![GDB](https://img.shields.io/badge/-GDB-black?style=flat-square&logoColor=white)
+![GDB](https://img.shields.io/badge/-GDB-000000?style=flat-square&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Yocto](https://img.shields.io/badge/-Yocto%20Project-2B5B84?style=flat-square&logo=linux&logoColor=white)
-![JIRA](https://img.shields.io/badge/-JIRA-0052CC?style=flat-square&logo=jira&logoColor=white)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
-#### Testing & Quality
+**Testing & Quality**
+
 ![Google Test](https://img.shields.io/badge/-Google%20Test-4285F4?style=flat-square&logo=google&logoColor=white)
-![Cppcheck](https://img.shields.io/badge/-Cppcheck-blue?style=flat-square)
-![MISRA](https://img.shields.io/badge/-MISRA%20C-red?style=flat-square)
+![Cppcheck](https://img.shields.io/badge/-Cppcheck-1E88E5?style=flat-square)
+![MISRA C](https://img.shields.io/badge/-MISRA%20C-C62828?style=flat-square)
 
 ---
 
 ### 🧠 Currently Exploring
 
-- 🦀 Rust: So far, it’s a complicated relationship.
-- 🖧 Network security and kubernetes in my Homelab.
-- 📈 ML model training on custom datasets.
+- 🦀 **Rust** - so far, it's a complicated relationship.
+- 🖧 **Network security & Kubernetes** in the homelab.
+- 🤖 **LocalAI & ML** - training models on custom datasets and running inference on my own hardware.
 
 ---
 
-<p align="center">
-  <i>“If debugging is the process of removing bugs, then programming must be the process of putting them in.” — Edsger W. Dijkstra</i>
-</p>
+<sub><i>"If debugging is the process of removing bugs, then programming must be the process of putting them in."</i> - Edsger W. Dijkstra</sub>
